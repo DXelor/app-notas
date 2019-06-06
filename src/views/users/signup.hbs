@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card signup">
+      <div class="card-header text-white text-center">
+        <h2>Registra tu Cuenta</h2>
+      </div>
+      <img src="/img/dragon.png" alt="dragon" class="mx-auto">
+      <div class="card-body">
+        <form action="/users/signup" method="POST">
+          <div class="form-group"><input type="text" name="name" class="form-control" placeholder="Nombre" value="{{name}}"></div>
+          <div class="form-group"><input type="email" name="email" class="form-control" placeholder="tuemail@tumail.com" value="{{email}}"></div>
+          <div class="form-group"><input type="password" name="password" class="form-control" placeholder="contraseña" value="{{password}}"></div>
+          <div class="form-group"><input type="password" name="password_c" class="form-control" placeholder="confirmar contraseña" value="{{password_c}}"></div>
+          <div class="form-group"><button type="submit" class="btn btn-primary btn-block">Sing Up</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
